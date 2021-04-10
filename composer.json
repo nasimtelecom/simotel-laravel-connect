@@ -4,7 +4,8 @@
     "authors": [
         {
             "name": "Hossein Yaghmaee",
-            "email": "hosseinyaghmaee@gmail.com"
+            "email": "hosseinyaghmaee@gmail.com",
+            "homepage": "hsy.ir"
         }
     ],
     "minimum-stability": "dev",
