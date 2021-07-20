@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df91c1b7fef6d4a80389c126d98fa5b0",
+    "content-hash": "334b7a9ac0e923e414746473bf0beaf9",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "de6f1e58e735754b888649495ed4cb9ae3b19589"
+                "reference": "a3a20779541ca1ae73d0d3766a83c33d14468f9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/de6f1e58e735754b888649495ed4cb9ae3b19589",
-                "reference": "de6f1e58e735754b888649495ed4cb9ae3b19589",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/a3a20779541ca1ae73d0d3766a83c33d14468f9e",
+                "reference": "a3a20779541ca1ae73d0d3766a83c33d14468f9e",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,8 @@
                 "guzzlehttp/promises": "^1.4",
                 "guzzlehttp/psr7": "^1.7 || ^2.0",
                 "php": "^7.2.5 || ^8.0",
-                "psr/http-client": "^1.0"
+                "psr/http-client": "^1.0",
+                "symfony/deprecation-contracts": "^2.2"
             },
             "provide": {
                 "psr/http-client-implementation": "1.0"
@@ -108,7 +109,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-23T14:07:59+00:00"
+            "time": "2021-07-17T23:05:34+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -172,12 +173,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "c0dcda9f54d145bd4d062a6d15f54931a67732f9"
+                "reference": "1dc8d9cba3897165e16d12bb13d813afb1eb3fe7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/c0dcda9f54d145bd4d062a6d15f54931a67732f9",
-                "reference": "c0dcda9f54d145bd4d062a6d15f54931a67732f9",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/1dc8d9cba3897165e16d12bb13d813afb1eb3fe7",
+                "reference": "1dc8d9cba3897165e16d12bb13d813afb1eb3fe7",
                 "shasum": ""
             },
             "require": {
@@ -243,22 +244,22 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.0.0-beta1"
+                "source": "https://github.com/guzzle/psr7/tree/2.0.0"
             },
-            "time": "2021-03-21T17:21:36+00:00"
+            "time": "2021-06-30T20:03:07+00:00"
         },
         {
             "name": "nasimtelecom/simotel-php-connect",
-            "version": "dev-main",
+            "version": "3.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nasimtelecom/simotel-php-connect.git",
-                "reference": "1af7e7ae3d35b24cecca7a96aac28136720de416"
+                "reference": "f1de68144f45300a89528ea2618c7041c9410832"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nasimtelecom/simotel-php-connect/zipball/1af7e7ae3d35b24cecca7a96aac28136720de416",
-                "reference": "1af7e7ae3d35b24cecca7a96aac28136720de416",
+                "url": "https://api.github.com/repos/nasimtelecom/simotel-php-connect/zipball/f1de68144f45300a89528ea2618c7041c9410832",
+                "reference": "f1de68144f45300a89528ea2618c7041c9410832",
                 "shasum": ""
             },
             "require": {
@@ -268,7 +269,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^8.0|^9.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -288,9 +288,9 @@
             "description": "Keep connected with simotel in php",
             "support": {
                 "issues": "https://github.com/nasimtelecom/simotel-php-connect/issues",
-                "source": "https://github.com/nasimtelecom/simotel-php-connect/tree/main"
+                "source": "https://github.com/nasimtelecom/simotel-php-connect/tree/3.12.2"
             },
-            "time": "2021-04-08T20:37:09+00:00"
+            "time": "2021-07-20T14:15:25+00:00"
         },
         {
             "name": "psr/http-client",
@@ -498,6 +498,74 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.4-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/deprecation-contracts/tree/main"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-03-23T23:28:01+00:00"
         }
     ],
     "packages-dev": [
@@ -4547,74 +4615,6 @@
             "time": "2021-04-07T16:07:52+00:00"
         },
         {
-            "name": "symfony/deprecation-contracts",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5f38c8804a9e97d23e0c8d63341088cd8a22d627",
-                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "2.4-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "function.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "A generic function and convention to trigger deprecation notices",
-            "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/main"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-03-23T23:28:01+00:00"
-        },
-        {
             "name": "symfony/error-handler",
             "version": "5.x-dev",
             "source": {
@@ -6978,9 +6978,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "nasimtelecom/simotel-php-connect": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

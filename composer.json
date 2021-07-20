@@ -9,7 +9,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "nasimtelecom/simotel-php-connect": "9999999-dev"
+        "nasimtelecom/simotel-php-connect": "3.12.2"
     },
     "require-dev": {
         "orchestra/testbench": "6"
