@@ -42,7 +42,29 @@ class SimotelLaravelServiceProvider extends ServiceProvider
             return new Simotel($config);
         });
 
+        $this->registerEvents();
     }
 
+    /**
+     * Register Laravel events.
+     *
+     * @return void
+     */
+    public function registerEvents()
+    {
+
+        $events = [
+            "CDR", "NewState", "IncomingCall", "OutgoingCall", "Transfer", "ExtenAdded", "ExtenRemoved",
+            "IncomingFax", "IncomingFax", "CdrQueue", "VoiceMail", "VoiceMailEmail", "Survey"
+        ];
+
+
+        foreach ($events as $event)
+            \Nasim\LaraSimotel\Facade\Simotel::eventApi()->addListener($event, function ($data) use ($event) {
+                $eventClassName = "Nasim\LaraSimotel\Events\SimotelEvent" . $event;
+                event(new $eventClassName(request()->all()));
+            });
+
+    }
 
 }
