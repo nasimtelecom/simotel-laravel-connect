@@ -9,19 +9,19 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "nasimtelecom/simotel-php-connect": "3.12.3"
+        "nasimtelecom/simotel-php-connect": "3.12.4"
     },
     "require-dev": {
         "orchestra/testbench": "6"
     },
     "autoload-dev": {
         "psr-4": {
-            "Nasim\\LaraSimotel\\Tests\\": "tests"
+            "Nasim\\Simotel\\Laravel\\Tests\\": "tests"
         }
     },
     "autoload": {
         "psr-4": {
-            "Nasim\\LaraSimotel\\": "src"
+            "Nasim\\Simotel\\Laravel\\": "src"
         }
     },
     "description": "",
