@@ -1,15 +1,10 @@
 <?php
 
-namespace Nasim\LaraSimotel\Tests;
+namespace Nasim\Simotel\Laravel\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Psr7\Response;
-use Illuminate\Http\Request;
+
 use Illuminate\Support\Facades\Event;
-use Nasim\LaraSimotel\Events\SimotelEventCDR;
-use Nasim\LaraSimotel\Facade\Simotel;
+use Nasim\Simotel\Laravel\Facade\Simotel;
 
 class SimotelEventApiTest extends TestCase
 {
@@ -26,7 +21,7 @@ class SimotelEventApiTest extends TestCase
         foreach ($events as $event) {
             Simotel::eventApi()->dispatch($event, []);
 
-            $eventClassName = "Nasim\LaraSimotel\Events\SimotelEvent" . $event;
+            $eventClassName = "Nasim\Simotel\Laravel\Events\SimotelEvent" . $event;
             Event::assertDispatched($eventClassName);
         }
     }

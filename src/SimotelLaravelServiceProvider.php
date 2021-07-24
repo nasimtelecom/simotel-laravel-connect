@@ -1,6 +1,6 @@
 <?php
 
-namespace Nasim\LaraSimotel;
+namespace Nasim\Simotel\Laravel;
 
 use Hsy\Simotel\Simotel;
 use Illuminate\Support\ServiceProvider;
@@ -60,8 +60,8 @@ class SimotelLaravelServiceProvider extends ServiceProvider
 
 
         foreach ($events as $event)
-            \Nasim\LaraSimotel\Facade\Simotel::eventApi()->addListener($event, function ($data) use ($event) {
-                $eventClassName = "Nasim\LaraSimotel\Events\SimotelEvent" . $event;
+            \Nasim\Simotel\Laravel\Facade\Simotel::eventApi()->addListener($event, function ($data) use ($event) {
+                $eventClassName = "Nasim\Simotel\Laravel\Events\SimotelEvent" . $event;
                 event(new $eventClassName(request()->all()));
             });
 

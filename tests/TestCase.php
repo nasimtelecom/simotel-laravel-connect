@@ -1,8 +1,8 @@
 <?php
 
-namespace Nasim\LaraSimotel\Tests;
+namespace Nasim\Simotel\Laravel\Tests;
 
-use Nasim\LaraSimotel\SimotelLaravelServiceProvider;
+use Nasim\Simotel\Laravel\SimotelLaravelServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

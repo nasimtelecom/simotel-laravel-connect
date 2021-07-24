@@ -1,6 +1,6 @@
 <?php
 
-namespace Nasim\LaraSimotel\Events;
+namespace Nasim\Simotel\Laravel\Events;
 
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Broadcasting\InteractsWithSockets;

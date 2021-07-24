@@ -1,12 +1,12 @@
 <?php
 
-namespace Nasim\LaraSimotel\Tests;
+namespace Nasim\Simotel\Laravel\Tests;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
-use Nasim\LaraSimotel\Facade\Simotel;
+use Nasim\Simotel\Laravel\Facade\Simotel;
 
 class SimotelApiTest extends TestCase
 {

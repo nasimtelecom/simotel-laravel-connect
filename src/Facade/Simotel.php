@@ -1,6 +1,6 @@
 <?php
 
-namespace Nasim\LaraSimotel\Facade;
+namespace Nasim\Simotel\Laravel\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
