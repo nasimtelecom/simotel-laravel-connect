@@ -12,7 +12,7 @@ with this package you can easly connect to simotel server by laravel and do some
 
 ## Install
 
-Use composer to install and autoload the package
+Use composer to install the package
 ```
 composer require nasimtelecom/simotel-laravel-connect
 ```
